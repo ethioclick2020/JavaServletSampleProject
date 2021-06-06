@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E6E6E6;
+  height: 100vh;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 350px;
+  border: 1px solid #9C9C9C;
+  background-color: #fff;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #Register-row #Register-column #Register-box #Register-form #register-link {
+  margin-top: -85px;
+}
+#register .container #register-row #register-column #register-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 535px;
+  border: 1px solid #9C9C9C;
+  background-color: #fff;
+}
+#register .container #register-row #register-column #register-box #register-form {
+  padding: 20px;
+}
+#register .container #register-row #register-column #register-box #register-form #register-link {
+  margin-top: -85px;
+}
+
+#fset{
+  text-align: center;
+  margin-top: 25vh;
+  margin-left: 40vh;
+  margin-right: 40vh;
+}	
+#text{
+	text-align: center;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+#h{
+	margin-top: 15vh;
+}
+#ulist{
+	list-style-type: none;
+}
+#ulist li a{
+	text-decoration: none;
+}
+.lBtn a{
+  background: #000;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 15px 25px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  display: inline-block;
+  color: #fff;
+}
+.lBtn a:hover{
+  background: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  color: #000;
+  border:solid 1px #000;
+}
+footer{
+	text-align: center;
+}

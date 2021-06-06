@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Item Page</title>
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link href="css/Style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- ======= Navbar ======= -->
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+		<a class="navbar-brand" href="#">Mini Super Market Management System</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="welcome.html">Home</a></li>
+				<li class="nav-item current"><a class="nav-link" href="Add.html">Add Item</a></li>
+				<li class="nav-item"><a class="nav-link" href="/MiniSuperMarketManagement/view">View Item</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- End NavBar -->
+
+	<!-- =======  Section ======= -->
+	<div class="container">
+		<h2 id="h">Add Item Form</h2>
+		<hr>
+		<br>
+		<form action="/MiniSuperMarketManagement/add" method="POST" class="form" >
+			<div class="form-group">
+				<label for="username" class="text-info">Item Name:</label><br> 
+				<input type="text" name="ItemName" id="ItemName" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="price" class="text-info">Price:</label><br> 
+				<input type="text" name="price" id="price" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="quantity" class="text-info">Quantity:</label><br> 
+				<input type="number" name="quantity" id="quantity" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="description" class="text-info">Description:</label><br>
+				<textarea name="description" rows="3" class="form-control"></textarea>
+			</div>
+			<br>
+			<div class="form-group">
+				<input type="submit" name="Add" class="btn btn-info btn-md" value="Add">
+			</div>
+			
+		</form>
+	</div>
+	<footer>
+	  All Right Reserved.
+	</footer>
+</body>
+</html>
