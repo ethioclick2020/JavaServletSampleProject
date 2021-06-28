@@ -36,7 +36,7 @@ A list of technologies used within the project:
 ## Programming Language
 ***
 * [Java Servlet](https://www.eclipse.org/downloads/packages/)
-* [MySQL query language](https://www.mysql.com/)
+* [SQL query language](https://www.mysql.com/)
 
 ## Markup Language
 ***
